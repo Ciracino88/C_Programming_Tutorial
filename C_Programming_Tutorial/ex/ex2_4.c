@@ -6,3 +6,11 @@
 //
 
 #include <stdio.h>
+int main_ex4(void) {
+    printf("21 + 9 = %d\n", 21 + 9);
+    printf("21 - 9 = %d\n", 21 - 9);
+    printf("21 * 9 = %d\n", 21 * 9);
+    printf("21 / 9 = %d\n", 21 / 9);
+    
+    return 0;
+}

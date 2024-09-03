@@ -23,7 +23,10 @@
 		3D971F382C86930F00AD24B3 /* work16.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F342C86930F00AD24B3 /* work16.c */; };
 		3D971F392C86930F00AD24B3 /* work15.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F352C86930F00AD24B3 /* work15.c */; };
 		3D971F3A2C86930F00AD24B3 /* work13.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F362C86930F00AD24B3 /* work13.c */; };
-		3D971F3E2C86955700AD24B3 /* lab2_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F3D2C86955700AD24B3 /* lab2_1.c */; };
+		3D971F432C869E2B00AD24B3 /* ex2_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F422C869E2B00AD24B3 /* ex2_3.c */; };
+		3D971F452C869F2600AD24B3 /* ex2_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F442C869F2600AD24B3 /* ex2_4.c */; };
+		3D971F472C86AD0D00AD24B3 /* ex2_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F462C86AD0D00AD24B3 /* ex2_5.c */; };
+		3D971F492C86BA3900AD24B3 /* ex2_6.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F482C86BA3900AD24B3 /* ex2_6.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,7 +59,10 @@
 		3D971F342C86930F00AD24B3 /* work16.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work16.c; sourceTree = "<group>"; };
 		3D971F352C86930F00AD24B3 /* work15.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work15.c; sourceTree = "<group>"; };
 		3D971F362C86930F00AD24B3 /* work13.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work13.c; sourceTree = "<group>"; };
-		3D971F3D2C86955700AD24B3 /* lab2_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = lab2_1.c; sourceTree = "<group>"; };
+		3D971F422C869E2B00AD24B3 /* ex2_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex2_3.c; sourceTree = "<group>"; };
+		3D971F442C869F2600AD24B3 /* ex2_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex2_4.c; sourceTree = "<group>"; };
+		3D971F462C86AD0D00AD24B3 /* ex2_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex2_5.c; sourceTree = "<group>"; };
+		3D971F482C86BA3900AD24B3 /* ex2_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex2_6.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +95,7 @@
 		3D971F112C86928200AD24B3 /* C_Programming_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
-				3D971F3C2C86954700AD24B3 /* lab */,
+				3D971F3F2C86993000AD24B3 /* ex */,
 				3D971F3B2C86933F00AD24B3 /* work */,
 			);
 			path = C_Programming_Tutorial;
@@ -118,12 +124,15 @@
 			path = work;
 			sourceTree = "<group>";
 		};
-		3D971F3C2C86954700AD24B3 /* lab */ = {
+		3D971F3F2C86993000AD24B3 /* ex */ = {
 			isa = PBXGroup;
 			children = (
-				3D971F3D2C86955700AD24B3 /* lab2_1.c */,
+				3D971F422C869E2B00AD24B3 /* ex2_3.c */,
+				3D971F442C869F2600AD24B3 /* ex2_4.c */,
+				3D971F462C86AD0D00AD24B3 /* ex2_5.c */,
+				3D971F482C86BA3900AD24B3 /* ex2_6.c */,
 			);
-			path = lab;
+			path = ex;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,7 +194,9 @@
 			files = (
 				3D971F3A2C86930F00AD24B3 /* work13.c in Sources */,
 				3D971F2C2C86930400AD24B3 /* work08.c in Sources */,
-				3D971F3E2C86955700AD24B3 /* lab2_1.c in Sources */,
+				3D971F472C86AD0D00AD24B3 /* ex2_5.c in Sources */,
+				3D971F432C869E2B00AD24B3 /* ex2_3.c in Sources */,
+				3D971F492C86BA3900AD24B3 /* ex2_6.c in Sources */,
 				3D971F382C86930F00AD24B3 /* work16.c in Sources */,
 				3D971F222C8692F600AD24B3 /* work04.c in Sources */,
 				3D971F322C86930400AD24B3 /* work06.c in Sources */,
@@ -196,6 +207,7 @@
 				3D971F2F2C86930400AD24B3 /* work12.c in Sources */,
 				3D971F242C8692FA00AD24B3 /* work05.c in Sources */,
 				3D971F312C86930400AD24B3 /* work09.c in Sources */,
+				3D971F452C869F2600AD24B3 /* ex2_4.c in Sources */,
 				3D971F1A2C8692B100AD24B3 /* work01.c in Sources */,
 				3D971F202C8692EE00AD24B3 /* work03.c in Sources */,
 				3D971F392C86930F00AD24B3 /* work15.c in Sources */,
