@@ -10,7 +10,7 @@
 
 // 반지름을 입력받아 원의 넓이를 구하기
 
-int main(void) {
+int main_ex6(void) {
     int r;
     float s;
     

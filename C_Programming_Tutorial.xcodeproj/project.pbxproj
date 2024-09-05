@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D82FCC82C893B0A00002501 /* HW2_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D82FCC72C893B0A00002501 /* HW2_1.c */; };
+		3D82FCCA2C893BD300002501 /* HW2_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D82FCC92C893BD300002501 /* HW2_2.c */; };
+		3D82FCCC2C8949D300002501 /* HW2_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D82FCCB2C8949D300002501 /* HW2_3.c */; };
 		3D971F1A2C8692B100AD24B3 /* work01.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F192C8692B100AD24B3 /* work01.c */; };
 		3D971F1E2C8692DF00AD24B3 /* work02.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F1D2C8692DF00AD24B3 /* work02.c */; };
 		3D971F202C8692EE00AD24B3 /* work03.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D971F1F2C8692EE00AD24B3 /* work03.c */; };
@@ -42,6 +45,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3D82FCC72C893B0A00002501 /* HW2_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW2_1.c; sourceTree = "<group>"; };
+		3D82FCC92C893BD300002501 /* HW2_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW2_2.c; sourceTree = "<group>"; };
+		3D82FCCB2C8949D300002501 /* HW2_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW2_3.c; sourceTree = "<group>"; };
 		3D971F0F2C86928200AD24B3 /* C_Programming_Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = C_Programming_Tutorial; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D971F192C8692B100AD24B3 /* work01.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work01.c; sourceTree = "<group>"; };
 		3D971F1D2C8692DF00AD24B3 /* work02.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = work02.c; sourceTree = "<group>"; };
@@ -76,6 +82,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D82FCC62C893AF900002501 /* hw */ = {
+			isa = PBXGroup;
+			children = (
+				3D82FCC72C893B0A00002501 /* HW2_1.c */,
+				3D82FCC92C893BD300002501 /* HW2_2.c */,
+				3D82FCCB2C8949D300002501 /* HW2_3.c */,
+			);
+			path = hw;
+			sourceTree = "<group>";
+		};
 		3D971F062C86928200AD24B3 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +111,7 @@
 		3D971F112C86928200AD24B3 /* C_Programming_Tutorial */ = {
 			isa = PBXGroup;
 			children = (
+				3D82FCC62C893AF900002501 /* hw */,
 				3D971F3F2C86993000AD24B3 /* ex */,
 				3D971F3B2C86933F00AD24B3 /* work */,
 			);
@@ -192,12 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D82FCCC2C8949D300002501 /* HW2_3.c in Sources */,
 				3D971F3A2C86930F00AD24B3 /* work13.c in Sources */,
 				3D971F2C2C86930400AD24B3 /* work08.c in Sources */,
 				3D971F472C86AD0D00AD24B3 /* ex2_5.c in Sources */,
 				3D971F432C869E2B00AD24B3 /* ex2_3.c in Sources */,
 				3D971F492C86BA3900AD24B3 /* ex2_6.c in Sources */,
 				3D971F382C86930F00AD24B3 /* work16.c in Sources */,
+				3D82FCC82C893B0A00002501 /* HW2_1.c in Sources */,
 				3D971F222C8692F600AD24B3 /* work04.c in Sources */,
 				3D971F322C86930400AD24B3 /* work06.c in Sources */,
 				3D971F1E2C8692DF00AD24B3 /* work02.c in Sources */,
@@ -207,6 +226,7 @@
 				3D971F2F2C86930400AD24B3 /* work12.c in Sources */,
 				3D971F242C8692FA00AD24B3 /* work05.c in Sources */,
 				3D971F312C86930400AD24B3 /* work09.c in Sources */,
+				3D82FCCA2C893BD300002501 /* HW2_2.c in Sources */,
 				3D971F452C869F2600AD24B3 /* ex2_4.c in Sources */,
 				3D971F1A2C8692B100AD24B3 /* work01.c in Sources */,
 				3D971F202C8692EE00AD24B3 /* work03.c in Sources */,
