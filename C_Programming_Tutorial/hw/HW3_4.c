@@ -4,7 +4,7 @@
 //
 //  Created by 이승호 on 9/10/24.
 //
-
+// 경제학과 202120819 이승호
 #include <stdio.h>
 
 int main_hw7(void) {

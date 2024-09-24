@@ -5,6 +5,8 @@
 //  Created by 이승호 on 9/10/24.
 // ex10
 
+// git push 방법 : 상단 integrate - pull 이후 push
+
 #include <stdio.h>
 int main_ex10(void) {
     char ch;
