@@ -10,6 +10,8 @@ int main_ex18(void) {
     int n;
     printf("Enter the number: ");
     scanf("%d", &n);
-    n % 2 == 1 ? printf("%d 는 홀수이다.\n", n) : printf("%d 는 짝수이다.\n", n);
+    
+    (n % 2 == 1) ? printf("%d 는 홀수이다.\n", n) : printf("%d 는 짝수이다.\n", n);
+    
     return 0;
 }

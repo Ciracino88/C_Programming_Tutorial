@@ -17,7 +17,7 @@ int main_ex16(void) {
     scanf("%d", &down);
     printf("-------영수증------\n");
     printf("상품 가격:\t%d\n", price);
-    printf("할인된 가격:%8d\n", (int)(price * (0.01 * (float)down )));
+    printf("할인된 가격:%8d\n", price - (int)(price * (1 - 0.01 * (float)down )));
     printf("-----------------\n");
     printf("할인된 가격:%8d\n", (int)(price * (1 - 0.01 * (float)down )));
     printf("-----------------\n");

@@ -3,30 +3,39 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 10/4/24.
-//
+// main_ex25
+// lab5_2
+// 202120819 경제학과 이승호
 
 #include <stdio.h>
 
 int main_ex25(void) {
-    char c;
+//    int num;
+//    
+//    printf("Enter the number: ");
+//    scanf("%d", &num);
+//    
+//    if (num % 2 == 1) {
+//        printf("홀수입니다.\n");
+//    }
+//    
+//    else {
+//        printf("짝수입니다.\n");
+//    }
     
-    printf("Enter the character: ");
-    scanf("%c", &c);
+    int num;
     
-    if (c == 'K' || c == 'k') {
-        printf("KBS 이다.\n");
-    }
+    printf("Enter the number: ");
+    scanf("%d", &num);
     
-    else if (c == 'E' || c == 'e') {
-        printf("EBS 이다.\n");
-    }
-    
-    else if (c == 'M' || c == 'm') {
-        printf("MBC 이다.\n");
+    if (num % 2 == 1) {
+        printf("홀수입니다.\n");
+        printf("나머지가 %d 입니다.\n", num % 2);
     }
     
     else {
-        return 0;
+        printf("짝수입니다.\n");
+        printf("몫은 %d 입니다.\n", (int)(num / 2));
     }
     
     return 0;
