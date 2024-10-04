@@ -34,6 +34,7 @@
 		3D01A4F32CAF8EC6007DE38D /* HW5_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A4F22CAF8EC6007DE38D /* HW5_2.c */; };
 		3D01A4F72CAF9784007DE38D /* ex_5_8.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A4F62CAF9784007DE38D /* ex_5_8.c */; };
 		3D01A4F92CAF98F0007DE38D /* HW5_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A4F82CAF98F0007DE38D /* HW5_3.c */; };
+		3D01A4FB2CAF9E28007DE38D /* HW5_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A4FA2CAF9E28007DE38D /* HW5_4.c */; };
 		3D09CB512C8FC81200DEB171 /* ex3_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D09CB502C8FC81200DEB171 /* ex3_1.c */; };
 		3D09CB542C8FDC1D00DEB171 /* HW3_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D09CB532C8FDC1D00DEB171 /* HW3_1.c */; };
 		3D5D9E3C2C8FE5E800604F6D /* ex3_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D9E3B2C8FE5E800604F6D /* ex3_2.c */; };
@@ -106,6 +107,7 @@
 		3D01A4F22CAF8EC6007DE38D /* HW5_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW5_2.c; sourceTree = "<group>"; };
 		3D01A4F62CAF9784007DE38D /* ex_5_8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_5_8.c; sourceTree = "<group>"; };
 		3D01A4F82CAF98F0007DE38D /* HW5_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW5_3.c; sourceTree = "<group>"; };
+		3D01A4FA2CAF9E28007DE38D /* HW5_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW5_4.c; sourceTree = "<group>"; };
 		3D09CB502C8FC81200DEB171 /* ex3_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex3_1.c; sourceTree = "<group>"; };
 		3D09CB532C8FDC1D00DEB171 /* HW3_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW3_1.c; sourceTree = "<group>"; };
 		3D5D9E3B2C8FE5E800604F6D /* ex3_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex3_2.c; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				3D01A4F02CAF8CDF007DE38D /* HW5_1.c */,
 				3D01A4F22CAF8EC6007DE38D /* HW5_2.c */,
 				3D01A4F82CAF98F0007DE38D /* HW5_3.c */,
+				3D01A4FA2CAF9E28007DE38D /* HW5_4.c */,
 			);
 			path = hw;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 				3D82FCC82C893B0A00002501 /* HW2_1.c in Sources */,
 				3D971F222C8692F600AD24B3 /* work04.c in Sources */,
 				3D01A44A2CA5240D007DE38D /* HW4_5.c in Sources */,
+				3D01A4FB2CAF9E28007DE38D /* HW5_4.c in Sources */,
 				3D01A4ED2CAF6518007DE38D /* ex_5_9.c in Sources */,
 				3D5D9E442C8FF1A900604F6D /* HW3_3.c in Sources */,
 				3D971F322C86930400AD24B3 /* work06.c in Sources */,
