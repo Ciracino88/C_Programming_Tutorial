@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main_hw16(void) {
     int used_kwh;
     int df;
     int per_bill;
