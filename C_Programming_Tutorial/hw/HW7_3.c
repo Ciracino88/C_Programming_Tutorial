@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main_hw23(void) {
     int n1, n2;
     int GCD;
     

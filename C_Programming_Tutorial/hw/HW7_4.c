@@ -9,7 +9,7 @@
 
 #include <stdio.h>
 
-int main(void) {
+int main_hw24(void) {
     int answer = 111;
     int guess;
     int count = 0;

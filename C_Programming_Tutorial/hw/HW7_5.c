@@ -8,7 +8,7 @@
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
-int main(void) {
+int main_hw25(void) {
     // 97 ~ 122 이내에서만 허용
     char c;
     while (1) {
