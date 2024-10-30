@@ -12,7 +12,7 @@ int isPrime(int n);
 int main(void) {
     int count = 0;
     int k = 2;
-    while(count == 10) {
+    while(count < 10) {
         if (isPrime(k) == 0) {
             count += 1;
             printf("%d번째 소수는 %d\n", count, k);
