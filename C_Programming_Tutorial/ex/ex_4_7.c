@@ -8,7 +8,6 @@
 #include <stdio.h>
 int main_ex17(void) {
     int fahrentheit;
-    double celsius;
     
     printf("Enter the fahrentheit temperature: ");
     scanf("%d", &fahrentheit);

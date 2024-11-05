@@ -12,7 +12,6 @@
 int is_leap_year(int year);
 
 int main_ex54(void) {
-    int i;
     
     for (int i = 2000; i < 2100; i++) {
         if (is_leap_year(i) == 1) {

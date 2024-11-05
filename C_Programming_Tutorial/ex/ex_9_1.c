@@ -8,7 +8,7 @@
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
-void print5Stars();
+void print5Stars(void);
 
 int main_ex49(void) {
     print5Stars();
@@ -17,7 +17,7 @@ int main_ex49(void) {
     return 0;
 }
 
-void print5Stars() {
+void print5Stars(void) {
     int i;
     
     for (i = 0; i < 5 ; i++) {

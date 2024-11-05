@@ -17,7 +17,7 @@ int main_ex14(void) {
     printf("%d - %d = %d\n", a, b, a-b);
     printf("%d * %d = %d\n", a, b, a*b);
     printf("%d / %d = %d\n", a, b, a/b);
-    printf("%d %% %d = ", a, b, a%b);
+    printf("%d %% %d = %d\n", a, b, a%b);
     
     
     return 0;
