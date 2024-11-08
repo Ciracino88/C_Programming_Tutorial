@@ -3,7 +3,7 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 11/5/24.
-// main_ex59
+// main_ex62
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
@@ -20,7 +20,7 @@ void plus(void) {
     
     printf("%d\n", count);
 }
-int main_ex59(void) {
+int main_ex62(void) {
     for (int i = 1; i <= 5; i++) {
         plus();
     }

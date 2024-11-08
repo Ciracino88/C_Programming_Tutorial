@@ -3,7 +3,7 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 11/5/24.
-// main_ex58
+// main_ex61
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
@@ -26,7 +26,7 @@ void recur_to2(int from10) {
     }
 }
 
-int main_ex58(void) {
+int main_ex61(void) {
     to2(13); // 이진수의 역순으로 출력된다..
     printf("\n--------\n");
     recur_to2(13);

@@ -3,13 +3,13 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 11/5/24.
-// main_ex61
+// main_ex64
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
 #define arr_size 5
 
-int main_ex61(void) {
+int main_ex64(void) {
     int arr[arr_size] = {1,2,3,4,5};
     int x[arr_size] = {1,2,3};
     int y[arr_size] = {0};

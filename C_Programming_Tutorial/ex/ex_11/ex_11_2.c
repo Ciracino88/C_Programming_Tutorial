@@ -3,7 +3,7 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 11/5/24.
-// main_ex57
+// main_ex60
 // 202120819 경제학과 이승호
 
 #include <stdio.h>
@@ -28,7 +28,7 @@ void display2(int num) {
     }
 }
 
-int main_ex57(void) {
+int main_ex60(void) {
     display(5);
     printf("----------------\n");
     display2(5);

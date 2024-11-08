@@ -84,6 +84,9 @@
 		3D01A5E62CD9A520007DE38D /* ex_11_4.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A5E52CD9A520007DE38D /* ex_11_4.c */; };
 		3D01A5EA2CD9B457007DE38D /* ex_11_5.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A5E92CD9B457007DE38D /* ex_11_5.c */; };
 		3D01A5EC2CD9BDBD007DE38D /* ex_11_6.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A5EB2CD9BDBD007DE38D /* ex_11_6.c */; };
+		3D01A6162CDD861A007DE38D /* ex_10_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A6152CDD861A007DE38D /* ex_10_1.c */; };
+		3D01A6182CDD8631007DE38D /* ex_10_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A6172CDD8631007DE38D /* ex_10_2.c */; };
+		3D01A61A2CDD863B007DE38D /* ex_10_3.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D01A6192CDD863B007DE38D /* ex_10_3.c */; };
 		3D09CB512C8FC81200DEB171 /* ex_3_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D09CB502C8FC81200DEB171 /* ex_3_1.c */; };
 		3D09CB542C8FDC1D00DEB171 /* HW3_1.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D09CB532C8FDC1D00DEB171 /* HW3_1.c */; };
 		3D5D9E3C2C8FE5E800604F6D /* ex_3_2.c in Sources */ = {isa = PBXBuildFile; fileRef = 3D5D9E3B2C8FE5E800604F6D /* ex_3_2.c */; };
@@ -160,7 +163,7 @@
 		3D01A5032CB4BE63007DE38D /* ex_6_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_2.c; sourceTree = "<group>"; };
 		3D01A5052CB4C22F007DE38D /* ex_6_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_3.c; sourceTree = "<group>"; };
 		3D01A5072CB4C9AB007DE38D /* ex_6_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_4.c; sourceTree = "<group>"; };
-		3D01A5092CB4D3F7007DE38D /* ex_6_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ex_6_5.c; path = C_Programming_Tutorial/ex_6_5.c; sourceTree = SOURCE_ROOT; };
+		3D01A5092CB4D3F7007DE38D /* ex_6_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = ex_6_5.c; path = C_Programming_Tutorial/ex/ex_6/ex_6_5.c; sourceTree = SOURCE_ROOT; };
 		3D01A50B2CB4D54A007DE38D /* ex_6_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_6.c; sourceTree = "<group>"; };
 		3D01A50D2CB4D691007DE38D /* ex_6_7.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_7.c; sourceTree = "<group>"; };
 		3D01A50F2CB4D909007DE38D /* ex_6_8.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_6_8.c; sourceTree = "<group>"; };
@@ -206,6 +209,9 @@
 		3D01A5E52CD9A520007DE38D /* ex_11_4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_11_4.c; sourceTree = "<group>"; };
 		3D01A5E92CD9B457007DE38D /* ex_11_5.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_11_5.c; sourceTree = "<group>"; };
 		3D01A5EB2CD9BDBD007DE38D /* ex_11_6.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_11_6.c; sourceTree = "<group>"; };
+		3D01A6152CDD861A007DE38D /* ex_10_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_10_1.c; sourceTree = "<group>"; };
+		3D01A6172CDD8631007DE38D /* ex_10_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_10_2.c; sourceTree = "<group>"; };
+		3D01A6192CDD863B007DE38D /* ex_10_3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_10_3.c; sourceTree = "<group>"; };
 		3D09CB502C8FC81200DEB171 /* ex_3_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_3_1.c; sourceTree = "<group>"; };
 		3D09CB532C8FDC1D00DEB171 /* HW3_1.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = HW3_1.c; sourceTree = "<group>"; };
 		3D5D9E3B2C8FE5E800604F6D /* ex_3_2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = ex_3_2.c; sourceTree = "<group>"; };
@@ -261,34 +267,213 @@
 			path = midterm;
 			sourceTree = "<group>";
 		};
-		3D82FCC62C893AF900002501 /* hw */ = {
+		3D01A61B2CDD8640007DE38D /* ex_10 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A6152CDD861A007DE38D /* ex_10_1.c */,
+				3D01A6172CDD8631007DE38D /* ex_10_2.c */,
+				3D01A6192CDD863B007DE38D /* ex_10_3.c */,
+			);
+			path = ex_10;
+			sourceTree = "<group>";
+		};
+		3D01A61C2CDD864F007DE38D /* ex_9 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A5642CD08511007DE38D /* ex_9_1.c */,
+				3D01A5662CD08757007DE38D /* ex_9_2.c */,
+				3D01A5682CD08918007DE38D /* ex_9_3.c */,
+				3D01A56A2CD08A07007DE38D /* ex_9_4.c */,
+				3D01A56C2CD08B17007DE38D /* ex_9_5.c */,
+				3D01A56E2CD08CA3007DE38D /* ex_9_6.c */,
+				3D01A5702CD08DEC007DE38D /* ex_9_7.c */,
+			);
+			path = ex_9;
+			sourceTree = "<group>";
+		};
+		3D01A61D2CDD8661007DE38D /* ex_8 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A5582CD0620D007DE38D /* ex_8_1.c */,
+				3D01A55A2CD0676E007DE38D /* ex_8_2.c */,
+				3D01A55C2CD069A8007DE38D /* ex_8_3.c */,
+				3D01A5622CD0833E007DE38D /* ex_8_4.c */,
+			);
+			path = ex_8;
+			sourceTree = "<group>";
+		};
+		3D01A61E2CDD8670007DE38D /* ex_7 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A51F2CBDE995007DE38D /* ex_7_1.c */,
+				3D01A5212CBDEF58007DE38D /* ex_7_2.c */,
+				3D01A5252CBE0249007DE38D /* ex_7_3.c */,
+				3D01A5272CBE040C007DE38D /* ex_7_4.c */,
+				3D01A5292CBE09A4007DE38D /* ex_7_5.c */,
+				3D01A52B2CBE0D6D007DE38D /* ex_7_6.c */,
+			);
+			path = ex_7;
+			sourceTree = "<group>";
+		};
+		3D01A61F2CDD8689007DE38D /* ex_6 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A5012CB4B55F007DE38D /* ex_6_1.c */,
+				3D01A5032CB4BE63007DE38D /* ex_6_2.c */,
+				3D01A5052CB4C22F007DE38D /* ex_6_3.c */,
+				3D01A5072CB4C9AB007DE38D /* ex_6_4.c */,
+				3D01A5092CB4D3F7007DE38D /* ex_6_5.c */,
+				3D01A50B2CB4D54A007DE38D /* ex_6_6.c */,
+				3D01A50D2CB4D691007DE38D /* ex_6_7.c */,
+				3D01A50F2CB4D909007DE38D /* ex_6_8.c */,
+				3D01A5112CB4D9BF007DE38D /* ex_6_9.c */,
+				3D01A5132CB4DAAA007DE38D /* ex_6_10.c */,
+			);
+			path = ex_6;
+			sourceTree = "<group>";
+		};
+		3D01A6202CDD86A4007DE38D /* ex_2 */ = {
+			isa = PBXGroup;
+			children = (
+				3D971F422C869E2B00AD24B3 /* ex_2_3.c */,
+				3D971F442C869F2600AD24B3 /* ex_2_4.c */,
+				3D971F462C86AD0D00AD24B3 /* ex_2_5.c */,
+				3D971F482C86BA3900AD24B3 /* ex_2_6.c */,
+			);
+			path = ex_2;
+			sourceTree = "<group>";
+		};
+		3D01A6212CDD86B7007DE38D /* ex_3 */ = {
+			isa = PBXGroup;
+			children = (
+				3D09CB502C8FC81200DEB171 /* ex_3_1.c */,
+				3D5D9E3B2C8FE5E800604F6D /* ex_3_2.c */,
+				3D5D9E3D2C8FE78300604F6D /* ex_3_3.c */,
+				3D5D9E3F2C8FEAD300604F6D /* ex_3_4.c */,
+			);
+			path = ex_3;
+			sourceTree = "<group>";
+		};
+		3D01A6222CDD8DE1007DE38D /* ex_11 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A5DF2CD99DE9007DE38D /* ex_11_1.c */,
+				3D01A5E12CD99E8C007DE38D /* ex_11_2.c */,
+				3D01A5E32CD9A0C3007DE38D /* ex_11_3.c */,
+				3D01A5E52CD9A520007DE38D /* ex_11_4.c */,
+				3D01A5E92CD9B457007DE38D /* ex_11_5.c */,
+				3D01A5EB2CD9BDBD007DE38D /* ex_11_6.c */,
+			);
+			path = ex_11;
+			sourceTree = "<group>";
+		};
+		3D01A6232CDD8DF8007DE38D /* ex_4 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A4312CA23D59007DE38D /* ex_4_1.c */,
+				3D01A4332CA24BEA007DE38D /* ex_4_2.c */,
+				3D01A4352CA25A27007DE38D /* ex_4_3.c */,
+				3D01A4372CA25D59007DE38D /* ex_4_4.c */,
+				3D01A4392CA25FA0007DE38D /* ex_4_5.c */,
+				3D01A43B2CA26232007DE38D /* ex_4_6.c */,
+				3D01A43D2CA26574007DE38D /* ex_4_7.c */,
+				3D01A43F2CA2664E007DE38D /* ex_4_8.c */,
+			);
+			path = ex_4;
+			sourceTree = "<group>";
+		};
+		3D01A6242CDD8E0C007DE38D /* ex_5 */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A44B2CAB7A55007DE38D /* ex_5_1.c */,
+				3D01A44D2CAB7BF5007DE38D /* ex_5_2.c */,
+				3D01A44F2CAB929B007DE38D /* ex_5_3.c */,
+				3D01A4512CAB9361007DE38D /* ex_5_4.c */,
+				3D01A4532CAB9D0B007DE38D /* ex_5_5.c */,
+				3D01A4552CABA0E4007DE38D /* ex_5_6.c */,
+				3D01A4E82CAF61D5007DE38D /* ex_5_7.c */,
+				3D01A4F62CAF9784007DE38D /* ex_5_8.c */,
+				3D01A4EC2CAF6518007DE38D /* ex_5_9.c */,
+			);
+			path = ex_5;
+			sourceTree = "<group>";
+		};
+		3D01A6252CDD8E20007DE38D /* HW2 */ = {
 			isa = PBXGroup;
 			children = (
 				3D82FCC72C893B0A00002501 /* HW2_1.c */,
 				3D82FCC92C893BD300002501 /* HW2_2.c */,
 				3D82FCCB2C8949D300002501 /* HW2_3.c */,
+			);
+			path = HW2;
+			sourceTree = "<group>";
+		};
+		3D01A6262CDD8E2D007DE38D /* HW3 */ = {
+			isa = PBXGroup;
+			children = (
 				3D09CB532C8FDC1D00DEB171 /* HW3_1.c */,
 				3D5D9E412C8FF08F00604F6D /* HW3_2.c */,
 				3D5D9E432C8FF1A900604F6D /* HW3_3.c */,
 				3D01A42F2C8FF7BA007DE38D /* HW3_4.c */,
+			);
+			path = HW3;
+			sourceTree = "<group>";
+		};
+		3D01A6282CDD8E3F007DE38D /* HW4 */ = {
+			isa = PBXGroup;
+			children = (
 				3D01A4412CA26B31007DE38D /* HW4_1.c */,
 				3D01A4432CA5209F007DE38D /* HW4_2.c */,
 				3D01A4452CA521D8007DE38D /* HW4_3.c */,
 				3D01A4472CA5231A007DE38D /* HW4_4.c */,
 				3D01A4492CA5240D007DE38D /* HW4_5.c */,
+			);
+			path = HW4;
+			sourceTree = "<group>";
+		};
+		3D01A6292CDD8E81007DE38D /* HW5 */ = {
+			isa = PBXGroup;
+			children = (
 				3D01A4F02CAF8CDF007DE38D /* HW5_1.c */,
 				3D01A4F22CAF8EC6007DE38D /* HW5_2.c */,
 				3D01A4F82CAF98F0007DE38D /* HW5_3.c */,
 				3D01A4FA2CAF9E28007DE38D /* HW5_4.c */,
+			);
+			path = HW5;
+			sourceTree = "<group>";
+		};
+		3D01A62A2CDD8E8E007DE38D /* HW6 */ = {
+			isa = PBXGroup;
+			children = (
 				3D01A5172CB4DD2E007DE38D /* HW6_1.c */,
 				3D01A5192CB4DDD5007DE38D /* HW6_2.c */,
 				3D01A51B2CB4DEAD007DE38D /* HW6_3.c */,
 				3D01A5232CBDF217007DE38D /* HW6_4.c */,
+			);
+			path = HW6;
+			sourceTree = "<group>";
+		};
+		3D01A62B2CDD8EA3007DE38D /* HW7 */ = {
+			isa = PBXGroup;
+			children = (
 				3D01A52D2CBE11C1007DE38D /* HW7_1.c */,
 				3D01A52F2CBE1358007DE38D /* HW7_2.c */,
 				3D01A5312CBE14DD007DE38D /* HW7_3.c */,
 				3D01A5332CBE1A02007DE38D /* HW7_4.c */,
 				3D01A53D2CC5282D007DE38D /* HW7_5.c */,
+			);
+			path = HW7;
+			sourceTree = "<group>";
+		};
+		3D82FCC62C893AF900002501 /* hw */ = {
+			isa = PBXGroup;
+			children = (
+				3D01A6252CDD8E20007DE38D /* HW2 */,
+				3D01A6262CDD8E2D007DE38D /* HW3 */,
+				3D01A6282CDD8E3F007DE38D /* HW4 */,
+				3D01A6292CDD8E81007DE38D /* HW5 */,
+				3D01A62A2CDD8E8E007DE38D /* HW6 */,
+				3D01A62B2CDD8EA3007DE38D /* HW7 */,
 				3D01A5722CD08FC9007DE38D /* HW9_1.c */,
 				3D01A5742CD1ADC0007DE38D /* HW9_2.c */,
 				3D01A5762CD1AF14007DE38D /* HW9_3.c */,
@@ -350,64 +535,16 @@
 		3D971F3F2C86993000AD24B3 /* ex */ = {
 			isa = PBXGroup;
 			children = (
-				3D971F422C869E2B00AD24B3 /* ex_2_3.c */,
-				3D971F442C869F2600AD24B3 /* ex_2_4.c */,
-				3D971F462C86AD0D00AD24B3 /* ex_2_5.c */,
-				3D971F482C86BA3900AD24B3 /* ex_2_6.c */,
-				3D09CB502C8FC81200DEB171 /* ex_3_1.c */,
-				3D5D9E3B2C8FE5E800604F6D /* ex_3_2.c */,
-				3D5D9E3D2C8FE78300604F6D /* ex_3_3.c */,
-				3D5D9E3F2C8FEAD300604F6D /* ex_3_4.c */,
-				3D01A4312CA23D59007DE38D /* ex_4_1.c */,
-				3D01A4332CA24BEA007DE38D /* ex_4_2.c */,
-				3D01A4352CA25A27007DE38D /* ex_4_3.c */,
-				3D01A4372CA25D59007DE38D /* ex_4_4.c */,
-				3D01A4392CA25FA0007DE38D /* ex_4_5.c */,
-				3D01A43B2CA26232007DE38D /* ex_4_6.c */,
-				3D01A43D2CA26574007DE38D /* ex_4_7.c */,
-				3D01A43F2CA2664E007DE38D /* ex_4_8.c */,
-				3D01A44B2CAB7A55007DE38D /* ex_5_1.c */,
-				3D01A44D2CAB7BF5007DE38D /* ex_5_2.c */,
-				3D01A44F2CAB929B007DE38D /* ex_5_3.c */,
-				3D01A4512CAB9361007DE38D /* ex_5_4.c */,
-				3D01A4532CAB9D0B007DE38D /* ex_5_5.c */,
-				3D01A4552CABA0E4007DE38D /* ex_5_6.c */,
-				3D01A4E82CAF61D5007DE38D /* ex_5_7.c */,
-				3D01A4F62CAF9784007DE38D /* ex_5_8.c */,
-				3D01A4EC2CAF6518007DE38D /* ex_5_9.c */,
-				3D01A5012CB4B55F007DE38D /* ex_6_1.c */,
-				3D01A5032CB4BE63007DE38D /* ex_6_2.c */,
-				3D01A5052CB4C22F007DE38D /* ex_6_3.c */,
-				3D01A5072CB4C9AB007DE38D /* ex_6_4.c */,
-				3D01A5092CB4D3F7007DE38D /* ex_6_5.c */,
-				3D01A50B2CB4D54A007DE38D /* ex_6_6.c */,
-				3D01A50D2CB4D691007DE38D /* ex_6_7.c */,
-				3D01A50F2CB4D909007DE38D /* ex_6_8.c */,
-				3D01A5112CB4D9BF007DE38D /* ex_6_9.c */,
-				3D01A5132CB4DAAA007DE38D /* ex_6_10.c */,
-				3D01A51F2CBDE995007DE38D /* ex_7_1.c */,
-				3D01A5212CBDEF58007DE38D /* ex_7_2.c */,
-				3D01A5252CBE0249007DE38D /* ex_7_3.c */,
-				3D01A5272CBE040C007DE38D /* ex_7_4.c */,
-				3D01A5292CBE09A4007DE38D /* ex_7_5.c */,
-				3D01A52B2CBE0D6D007DE38D /* ex_7_6.c */,
-				3D01A5582CD0620D007DE38D /* ex_8_1.c */,
-				3D01A55A2CD0676E007DE38D /* ex_8_2.c */,
-				3D01A55C2CD069A8007DE38D /* ex_8_3.c */,
-				3D01A5622CD0833E007DE38D /* ex_8_4.c */,
-				3D01A5642CD08511007DE38D /* ex_9_1.c */,
-				3D01A5662CD08757007DE38D /* ex_9_2.c */,
-				3D01A5682CD08918007DE38D /* ex_9_3.c */,
-				3D01A56A2CD08A07007DE38D /* ex_9_4.c */,
-				3D01A56C2CD08B17007DE38D /* ex_9_5.c */,
-				3D01A56E2CD08CA3007DE38D /* ex_9_6.c */,
-				3D01A5702CD08DEC007DE38D /* ex_9_7.c */,
-				3D01A5DF2CD99DE9007DE38D /* ex_11_1.c */,
-				3D01A5E12CD99E8C007DE38D /* ex_11_2.c */,
-				3D01A5E32CD9A0C3007DE38D /* ex_11_3.c */,
-				3D01A5E52CD9A520007DE38D /* ex_11_4.c */,
-				3D01A5E92CD9B457007DE38D /* ex_11_5.c */,
-				3D01A5EB2CD9BDBD007DE38D /* ex_11_6.c */,
+				3D01A6202CDD86A4007DE38D /* ex_2 */,
+				3D01A6212CDD86B7007DE38D /* ex_3 */,
+				3D01A6232CDD8DF8007DE38D /* ex_4 */,
+				3D01A6242CDD8E0C007DE38D /* ex_5 */,
+				3D01A61F2CDD8689007DE38D /* ex_6 */,
+				3D01A61E2CDD8670007DE38D /* ex_7 */,
+				3D01A61D2CDD8661007DE38D /* ex_8 */,
+				3D01A61C2CDD864F007DE38D /* ex_9 */,
+				3D01A61B2CDD8640007DE38D /* ex_10 */,
+				3D01A6222CDD8DE1007DE38D /* ex_11 */,
 			);
 			path = ex;
 			sourceTree = "<group>";
@@ -476,6 +613,7 @@
 				3D01A5672CD08757007DE38D /* ex_9_2.c in Sources */,
 				3D5D9E422C8FF08F00604F6D /* HW3_2.c in Sources */,
 				3D01A5732CD08FC9007DE38D /* HW9_1.c in Sources */,
+				3D01A6162CDD861A007DE38D /* ex_10_1.c in Sources */,
 				3D01A57B2CD1E47F007DE38D /* HW9_4.c in Sources */,
 				3D09CB542C8FDC1D00DEB171 /* HW3_1.c in Sources */,
 				3D01A4502CAB929B007DE38D /* ex_5_3.c in Sources */,
@@ -523,6 +661,8 @@
 				3D01A52A2CBE09A4007DE38D /* ex_7_5.c in Sources */,
 				3D01A4422CA26B31007DE38D /* HW4_1.c in Sources */,
 				3D01A54F2CC7395E007DE38D /* 202120819이승호_2.c in Sources */,
+				3D01A61A2CDD863B007DE38D /* ex_10_3.c in Sources */,
+				3D01A6182CDD8631007DE38D /* ex_10_2.c in Sources */,
 				3D01A5122CB4D9BF007DE38D /* ex_6_9.c in Sources */,
 				3D01A53E2CC5282D007DE38D /* HW7_5.c in Sources */,
 				3D01A51A2CB4DDD5007DE38D /* HW6_2.c in Sources */,

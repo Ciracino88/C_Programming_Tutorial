@@ -3,7 +3,7 @@
 //  C_Programming_Tutorial
 //
 //  Created by 이승호 on 11/5/24.
-// main_ex60
+// main_ex63
 // 202120819 경제학과 이승호
 
 
@@ -14,7 +14,7 @@
 // 배열 선언 : 타입 배열명[배열크기]
 int scores[10];
 
-int main_ex60(void) {
+int main_ex63(void) {
     
     for (int i = 0; i <= 9; i++) {
         scores[i] = i+1;
