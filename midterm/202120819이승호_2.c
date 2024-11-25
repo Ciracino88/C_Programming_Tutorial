@@ -25,7 +25,7 @@ int main_2(void) {
             
             // 지금 탐색하는 수가 소수라고 미리 가정
             prime += 1;
-            for (int j = 2; j < i; j++) {
+            for (j = 2; j < i; j++) {
                 // 소수가 아닐 때
                 if (i % j == 0) {
                     not_prime += 1;

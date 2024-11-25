@@ -24,7 +24,7 @@ int main_ex63(void) {
     printf("%d\n", scores[2]);
     printf("%d\n", scores[4]);
     
-    const int a = 100;
+//    const int a = 100;
     
 //    int arr1[a]; // 이런 식으로 const 로 지정한 값을 배열의 크기롤 쓸 수 없음.
     int arr2[b]; // 매크로 상수는 배열 크기롤 쓸 수 있음
